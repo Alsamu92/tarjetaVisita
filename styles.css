@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Major Mono Display', monospace ;
+}
+
+.card{
+    height: 400px;
+    width: 60vw;
+    margin: 30vh auto;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: linear-gradient(to top right,  #f0b446,#e1b755);
+box-shadow: 0px 0px 20px;}
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    border-radius: 20px;
+   
+}
+
+.info_card{
+    width: 70%;
+    text-align: right;
+   border-left: 60px solid rgba(0, 0, 0, 0.951);
+
+   background: linear-gradient(119deg, rgba(0,0,0,1) 33%, rgb(39, 32, 32) 84%, rgba(47,39,39,1) 96%);
+   
+    border-radius: 50% 20px 20px 50%;
+    box-shadow: -20px 0px 10px rgba(15, 15, 15, 0.951);
+    overflow: hidden;
+    
+}
+    .neoland,.qr{
+        height: 35%;
+        width: 40%; 
+    margin: 20px;
+border-radius: 30px;
+border: 2px solid rgba(0, 0, 0, 0.389);}
+
+    .datos{
+        margin: 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.nombre{
+    font-size: 2rem;
+    color: rgb(255, 253, 248);
+}
+.profesion{font-size: 1.5rem;
+color: rgb(201, 173, 47);}
+
+
+.contac{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+  
+}
+
+.telefono,.correo,.direccion{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-top: 10px;
+}
+
+.circulo{
+    background-color: rgb(203, 175, 64);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+span{color: rgb(26, 25, 25);
+z-index: 1;
+height: 90px;
+width: 60px;
+
+position: relative;
+top: 13px;
+right: 23px;
+
+}
+
+
+        
